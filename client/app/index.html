@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru" ng-app="app" ng-controller="AppCtrl as appCtrl">
+<head>
+
+  <meta charset="utf-8">
+
+  <title ng-bind="appCtrl.pageTitle"></title>
+
+  <!-- Bootstrap local -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- Application CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+  
+  <!-- UI-VIEW -->
+  <div id="main-content" ui-view="main"></div>
+
+  <!-- Angular -->
+  <script src="../bower_components/angular/angular.js"></script>
+
+  <!-- Angular UI Router -->
+  <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>  
+  
+  <!-- The App -->
+  <script src="../dist/js/all.js"></script>
+
+</body>
+</html>
