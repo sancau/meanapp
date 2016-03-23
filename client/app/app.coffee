@@ -7,11 +7,13 @@
 
 angular.module 'app', [
     'ui.router'
-    
+
+    'apitest'    
     # cached templates module compiled (jade>html) by grunt process
     # stored in ../js/app-views.js
     'app.views'
 ]
+
 .config [
     '$stateProvider'
     '$urlRouterProvider'

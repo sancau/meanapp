@@ -1,0 +1,10 @@
+h3 {{ title }}
+hr
+table.table
+    thead
+        th Title
+        th Message
+    tbody   
+        tr(ng-repeat="note in notes")
+            td {{ note.title }}
+            td {{ note.message }}

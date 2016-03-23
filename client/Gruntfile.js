@@ -36,13 +36,14 @@ module.exports = function(grunt) {
             dist: {
                 src: [
                     'js/app.js',
+                    'js/apitest/apitest.js',
                     'js/app-views.js', 
                     
                     // you might need to set proper order of concationation
                     // to prevent issues with undefined modules
                     // modules should be concatenated first then other scripts
 
-                    'js/*.js',
+                    'js/**/*.js',
                 ],
                 dest: 'dist/js/all.js'
             }
