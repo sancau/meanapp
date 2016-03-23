@@ -1,0 +1,2 @@
+# meanapp
+MEAN stack sandbox
