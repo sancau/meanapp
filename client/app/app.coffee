@@ -1,17 +1,11 @@
-###
-    Source: app.coffee 
-    Project: 
-    Description: Main application module
-    Author: Alexander Tatchin | github.com/sancau
-###
-
 angular.module 'app', [
     'ui.router'
 
-    'apitest'    
     # cached templates module compiled (jade>html) by grunt process
     # stored in ../js/app-views.js
     'app.views'
+    
+    'apitest'  
 ]
 
 .config [
@@ -39,4 +33,4 @@ angular.module 'app', [
                     vm.pageTitle = "#{toState.data.pageTitle}"
             
             return vm
-    ]
+]

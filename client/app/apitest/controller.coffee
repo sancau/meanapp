@@ -10,4 +10,4 @@ angular.module 'apitest'
         'Note'
 
         apiTestCtrl
-    ]
+]
